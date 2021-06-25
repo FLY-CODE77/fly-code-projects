@@ -16,7 +16,8 @@
 
 > Working example
 
-<img src="https://blog.kakaocdn.net/dn/cUruf0/btq76H7H4Yk/su6Uo4k1nYgbA8RjLw1u91/img.png" width="480" height="320">
+<img width="1324" alt="스크린샷 2021-06-25 오후 4 18 33" src="https://user-images.githubusercontent.com/72845895/123394141-c71b3280-d5d9-11eb-9362-bfe540b61c51.png" width="480" height="320">
+
 
 > How to use ?
 - 1. Plug your ROT02 receiver to your mac or raspberry 

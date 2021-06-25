@@ -1,5 +1,5 @@
 # Fpv Blackbox 
-<img src = "https://blog.kakaocdn.net/dn/Bs91a/btq78wEpvXt/Pk4Hk7dDtItFex4bPpVWv1/img.jpg" width="680" height="480">
+<img src = "https://blog.kakaocdn.net/dn/Bs91a/btq78wEpvXt/Pk4Hk7dDtItFex4bPpVWv1/img.jpg" width="480" height="320">
 
 > HardWare
 - ROTG02 (eachine) : 5.8ghz video receiver 
@@ -12,11 +12,11 @@
 
 > Mechanism
 
-<img src ="https://blog.kakaocdn.net/dn/bjVrap/btq76IZMZST/t5wziEFIxYlEfZavEV86ik/img.png"  width="680" height="480">
+<img src ="https://blog.kakaocdn.net/dn/bjVrap/btq76IZMZST/t5wziEFIxYlEfZavEV86ik/img.png"  width="480" height="320">
 
 > Working example
 
-<img src ="https://blog.kakaocdn.net/dn/cNn3TS/btq79MzOfPh/E6TF8cNgEuKqMhpPaU1pM1/img.png" width="420" height="320"><img src="https://blog.kakaocdn.net/dn/bd1ptr/btq78ec4xpo/QUNxVe5IpP21fKoAexmR50/img.png" width="420" height="320">
+<img src ="https://blog.kakaocdn.net/dn/cNn3TS/btq79MzOfPh/E6TF8cNgEuKqMhpPaU1pM1/img.png" width="240" height="160"><img src="https://blog.kakaocdn.net/dn/bd1ptr/btq78ec4xpo/QUNxVe5IpP21fKoAexmR50/img.png" width="240" height="160">
 
 > How to use ?
 - 1. Plug your ROT02 receiver to your mac or raspberry 

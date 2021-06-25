@@ -1,6 +1,24 @@
+# basic module load
 import cv2
 import numpy as np
 import time 
+
+# os check for switching 
+def os_check():
+	''' 
+	os_check is check os name and
+	if mac return mode 0, linus return mode 1
+	'''
+	import platform
+	os_name = platform.system()
+
+	if os_name == "Darwin":
+		mode = 0
+	elif os_name == "Linux":
+		mode = 1
+	else :
+		print("sorry not support os type")
+	return mode
 
 cap = cv2.VideoCapture(0) # for mac 1
 						  # for raspberry 0

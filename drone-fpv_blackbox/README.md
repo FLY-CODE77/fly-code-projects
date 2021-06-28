@@ -12,7 +12,7 @@
 
 > Mechanism
 
-<img src ="https://blog.kakaocdn.net/dn/bjVrap/btq76IZMZST/t5wziEFIxYlEfZavEV86ik/img.png"  width="480" height="320">
+<img src ="https://blog.kakaocdn.net/dn/bjVrap/btq76IZMZST/t5wziEFIxYlEfZavEV86ik/img.png"  width="680" height="480">
 
 > Working example
 

@@ -1,5 +1,5 @@
-import dataload
-import query
+from module import dataload
+from module import query
 import pandas as pd
 import matplotlib.pylab as plt
 from datetime import datetime

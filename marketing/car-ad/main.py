@@ -39,10 +39,36 @@ honda = honda_kaida.groupby("date").sum()
 plt.figure(figsize=(18,10))
 plt.title('toyota vs honda')
 plt.plot(toyota.index, toyota["value"], label="toyota", marker='h')
-plt.plot(honda.index, honda["value"], label="honda",)
+plt.plot(honda.index, honda["value"], label="honda", marker='h')
 plt.axvline(x=datetime(2019, 9, 1), color='b', linestyle='--', linewidth=2)
 plt.axvline(x=datetime(2019, 12, 1), color='r', linestyle='--', linewidth=2)
 
 plt.legend()
 plt.savefig("./graph/toyota-honda.png")
 plt.show()
+
+# 19년도 9월 부터 실질적인 반일 감정 발생
+# 12월달 부터 불매 운동으로 인한 실질적인 파동이 시작 ..
+# 신문 기사 인용
+# https://www.hankookilbo.com/News/Read/202001061185366881
+'''
+한일간의 갈등이 있던 이전에도 일본차의 판매는 큰 영향은 없었다”
+'''
+# 그 동안 한일 갈등에 크게 상관이 없던 일본차가 이번에는 왜 이렇게 급변했을까
+
+'''
+16년 12월 일본해 표기, 촛불집회 비하
+18년 12월 전범기업 이슈
+'''
+plt.figure(figsize=(18,10))
+plt.title('anti-japan')
+plt.plot(toyota.index, toyota["value"], label="toyota", marker='h')
+plt.plot(honda.index, honda["value"], label="honda", marker='h')
+plt.axvline(x=datetime(2016, 12, 1), color='b', linestyle='--', linewidth=2)
+plt.axvline(x=datetime(2018, 12, 1), color='b', linestyle='--', linewidth=2)
+plt.axvline(x=datetime(2019, 9, 1), color='b', linestyle='--', linewidth=2)
+plt.axvline(x=datetime(2019, 12, 1), color='r', linestyle='--', linewidth=2)
+plt.legend()
+plt.savefig("./graph/anti-japan.png")
+plt.show()
+

@@ -6,5 +6,5 @@ def get_table(table):
     """
     SELECT * FROM my_db.{};
     """).format(table)
-    print(qry)
+    print("your query is", qry)
     return qry

@@ -7,8 +7,8 @@ def monthly_sub(df):
     '''
 
     df = df.sort_values(by='date')
-    new_df = df[1:]
-    new_df['before'] = df['value'][:-1].values
+    new_df = df[:-1]
+    new_df['before'] = df['value'][1:].values
     new_df['sub'] = (new_df['value'] - new_df['before'])
     
     good_day = new_df['sub'].sort_values(ascending=False)[:5]

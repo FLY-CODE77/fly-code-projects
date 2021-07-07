@@ -1,7 +1,7 @@
 import pandas as pd
 def monthly_sub(df):
     '''
-    sub this month - last month car sales value
+    sub last month - this month car sales value
     return top 5 increasement and decreasement sales months 
     and values 
     '''

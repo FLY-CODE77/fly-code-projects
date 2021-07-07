@@ -1,10 +1,11 @@
 import pandas as pd
 def monthly_sub(df):
-   '''
+    '''
     sub this month - last month car sales value
     return top 5 increasement and decreasement sales months 
     and values 
     '''
+
     df = df.sort_values(by='date')
     new_df = df[1:]
     new_df['before'] = df['value'][:-1].values

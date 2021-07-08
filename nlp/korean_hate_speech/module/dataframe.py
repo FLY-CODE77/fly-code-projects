@@ -2,6 +2,18 @@ import os
 import pandas as pd
 
 def make(location, key_word):
+    '''
+    location = data path
+    key_word = key_word of csv_files
+
+    if you insert params make function
+    this function make list of csv_file in data path 
+    1st filter with key_word 
+    2nd filter with title or not 
+
+    finally concat title and other frame to one dataframe
+    and return
+    '''
     datalist = os.listdir(location)
     csv_list = []
 

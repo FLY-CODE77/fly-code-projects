@@ -1,9 +1,11 @@
 import os
 import pandas as pd
 
+from module import dataframe
 datalist = os.listdir('./data')
 
-# making dev frame
-dev_hate = pd.read_csv("./data/" + datalist[0])
-dev_title = pd.read_csv("./data/" + datalist[1], names=['title'])
-dev = pd.concat([dev_title, dev_hate], 1)
+# making data frame
+dev = dataframe.make('./data', 'dev')
+train = dataframe.make('./data', 'train')
+test = dataframe.make('./data', 'test')
+unlabeled = dataframe.make('./data', 'unlabeled')
